@@ -1,0 +1,25 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+    padding: 8px 0px;
+}
+
+#header > a {
+    margin: 0px 16px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#content {
+    margin: 0px 8px;
+}
