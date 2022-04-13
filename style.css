@@ -20,6 +20,77 @@ a {
     text-decoration: inherit;
 }
 
+.section {
+    /* max-width: 1080px;
+    margin: 0 auto;  */
+}
+
+.section > * {
+    max-width: 1080px;
+    padding: 0 8px;
+}
+
+.section-title {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.section-sub-title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.section-text {
+    margin: 8px 0px; 
+}
+
 #content {
-    margin: 0px 8px;
+    /* margin: 0px 8px; */
+    background-color: lightblue; 
+
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+#content > div {
+    margin-top: 32px;
+}
+
+.left-col {
+    margin-left: auto; 
+}
+
+.right-col {
+    margin-right: auto; 
+}
+
+/* Home */
+
+#home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 64px;
+    align-items: center;
+}
+
+
+/* Experiences */
+
+.experience-item {
+    text-align: initial;
+}
+
+/* Skills */
+
+.skill-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+}
+
+/* Projects */
+
+.project-item {
+    text-align: initial;
 }
