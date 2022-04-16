@@ -9,6 +9,10 @@ body {
 #header {
     text-align: center;
     padding: 8px 0px;
+    position: fixed;
+    width: 100%;
+    background-color: #445A70;
+    color: #F0F8FF;
 }
 
 #header > a {
@@ -23,21 +27,24 @@ a {
 .section {
     /* max-width: 1080px;
     margin: 0 auto;  */
+    margin: 16px 0px;
 }
 
 .section > * {
     max-width: 1080px;
-    padding: 0 8px;
+    /* padding: 0 8px; */
 }
 
 .section-title {
     font-size: xx-large;
     font-weight: bold;
+    color: #234970; 
 }
 
 .section-sub-title {
     font-size: large;
     font-weight: bold;
+    color: #234970; 
 }
 
 .section-text {
@@ -46,15 +53,13 @@ a {
 
 #content {
     /* margin: 0px 8px; */
-    background-color: lightblue; 
+    background-color: #F0F8FF; 
 
     display: grid;
     justify-content: center;
     text-align: center;
-}
 
-#content > div {
-    margin-top: 32px;
+    padding-top: 34.5px;
 }
 
 .left-col {
@@ -79,6 +84,47 @@ a {
 
 .experience-item {
     text-align: initial;
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    grid-column-gap: 32px;
+    border: 0.5px solid #445A70;
+    border-radius: 16px;
+    padding: 8px 16px;
+    margin: 16px;
+}
+
+.experience-title, .interest-title {
+    font-weight: 600;
+}
+
+.experience-dates {
+    font-style: italic;
+}
+
+ul.experience-text {
+    margin: 0px;
+    padding: 8px;
+}
+
+.experience-text > li{
+    list-style: none;
+}
+
+.experience-text > li:before{
+    content: "\25B9";
+    padding-right: 4px;
+    list-style-position: outside;
+    margin-left: -1em;
+}
+
+img.logo {
+    width: 64px; 
+    border-radius: 50%;
+    background-color: white;
+}
+
+.company, .class {
+    color: #234970;
 }
 
 /* Skills */
@@ -87,10 +133,34 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 16px;
+    align-items: center;
+    grid-row-gap: 8px;
+}
+
+.blank {
+    color: white;
+}
+
+.fill {
+    color: #445A70; 
 }
 
 /* Projects */
 
 .project-item {
     text-align: initial;
+}
+
+/* Extras */
+
+.interest-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    text-align: initial;
+    padding-top: 16px;
+}
+
+.interest-text {
+    width: 50%;
 }
