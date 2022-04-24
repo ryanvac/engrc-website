@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a63c696839.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,13 +19,22 @@
     <div id="content" >
         <div class="section" id="home">
             <div class="left-col">
-                <img height=256 src="./images/headshot.png">
+                <img class="headshot" height=256 src="./images/headshot.png">
             </div>
             <div class="right-col">
-                <h1>Ryan Vaccariello</h1>
-                <h3>Software Engineer</h3>
-                <h4>CS @ Cornell Univeristy, May 2022</h4>
+                <h1 class="blue">Ryan Vaccariello</h1>
+                <h3 class="blue">Software Engineer</h3>
+                <div class="blue icons">
+                    <a target="_blank" href="https://www.linkedin.com/in/ryan-vaccariello/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/ryanvac"><i class="fa-brands fa-github"></i></a>
+                </div>
             </div>
+        </div>
+        <div class="section" id="about">
+            <p>I am a graduating senior at Cornell studying Computer 
+                Sciences, and later this year I will be joining Google 
+                as a software engineer. Click the links below my name
+                to connect.</p>
         </div>
         <div class="section" id="experience">
             <div class="section-title">Experience</div>
@@ -37,7 +47,7 @@
                     <div class="right-col">
                         <div class="experience-title">
                             <span>Teaching Assistant @ </span>
-                            <a target="_blank" href="https://www.cornell.edu/" class="company">Cornell Univeristy</a>
+                            <a target="_blank" href="https://www.cornell.edu/" class="blue">Cornell Univeristy</a>
                         </div>
                         <div class="experience-dates">
                             Aug 2021 - Dec 2021
@@ -55,7 +65,7 @@
                     <div class="right-col">
                         <div class="experience-title">
                             <span>Price Volatility Management Intern @ </span>
-                            <a target="_blank" href="https://www.nationalgrid.com/" class="company">National Grid</a>
+                            <a target="_blank" href="https://www.nationalgrid.com/" class="blue">National Grid</a>
                         </div>
                         <div class="experience-dates">
                             Jul 2020 - Aug 2020
@@ -74,7 +84,7 @@
                     <div class="right-col">
                         <div class="experience-title">
                             <span>Tutor @ </span>
-                            <a target="_blank" href="https://www.varsitytutors.com/" class="company">Varsity Tutors</a>
+                            <a target="_blank" href="https://www.varsitytutors.com/" class="blue">Varsity Tutors</a>
                         </div>
                         <div class="experience-dates">
                             Mar 2020 - Jun 2020
@@ -92,7 +102,7 @@
                     <div class="right-col">
                         <div class="experience-title">
                             <span>Special Project Intern @ </span>
-                            <a target="_blank" href="https://www.adeccogroup.com/" class="company">The Adecco Group</a>
+                            <a target="_blank" href="https://www.adeccogroup.com/" class="blue">The Adecco Group</a>
                         </div>
                         <div class="experience-dates">
                             Aug 2021 - Dec 2021
@@ -114,7 +124,7 @@
                     <div class="right-col">
                         <div class="experience-title">
                             <span>Student @ </span>
-                            <a target="_blank" href="https://www.cornell.edu/" class="company">Cornell Univeristy</a>
+                            <a target="_blank" href="https://www.cornell.edu/" class="blue">Cornell Univeristy</a>
                         </div>
                         <div class="experience-dates">
                             Graduating May 2022
@@ -147,7 +157,7 @@
                             Party Playlist Mixer
                         </div>
                         <ul class="experience-text">
-                            <li>Final project in <a class="class" target="_blank" href="https://classes.cornell.edu/browse/roster/SP20/class/CS/4300">CS 4300 Language and Information</a></li>
+                            <li>Final project in <a class="blue" target="_blank" href="https://classes.cornell.edu/browse/roster/SP20/class/CS/4300">CS 4300 Language and Information</a></li>
                             <li>Collaborated within the Agile Development cycle to build full stack application that produces a personalized party playlist based on everyone's individual playlists</li>
                             <li>Implemented information retrieval and text analysis techniques in Python using Spotify's REST API and backed by MongoDB running on the Google Cloud Platform</li>
                         </ul>
@@ -162,7 +172,7 @@
                             NBA Game Predictor
                         </div>
                         <ul class="experience-text">
-                            <li>Product of project course <a class="class" target="_blank" href="https://classes.cornell.edu/browse/roster/FA21/class/CS/4701">CS 4701 Practicum in Artificial Intelligence</a></li>
+                            <li>Product of project course <a class="blue" target="_blank" href="https://classes.cornell.edu/browse/roster/FA21/class/CS/4701">CS 4701 Practicum in Artificial Intelligence</a></li>
                             <li>Collaborated to build an application to predict the outcome of NBA games based team statistics</li>
                             <li>Created K-nearest neighbor, support vector machine, and neural networks prediction models in Python based off 3000+ past NBA games</li>
                         </ul>
@@ -178,8 +188,9 @@
                 <div class="right-col interest-text">
                     <div class="interest-title">Snowboarding</div>
                     I first learned how to snowboard through a class at Cornell. 
-                    I enjoyed it so much that I decideded to get get my own snowboard, and now 
-                    this is my third season. This is a picture of me at Lake Placid, NY. 
+                    I enjoyed it so much that I decided to get my own snowboard, and now 
+                    this is my third season. This is a picture of me at Whiteface
+                    Mountain in Lake Placid, NY. 
                 </div>
                 <img class="left-col" height=256 src="./images/travel.jpg">
                 <div class="right-col interest-text">

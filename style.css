@@ -79,6 +79,21 @@ a {
     align-items: center;
 }
 
+.headshot {
+    border: 2px solid #445A70;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #445a70;
+}
+
+#about {
+    max-width: 60%;
+    margin: auto;
+}
+
+.icons > a {
+    padding: 0px 4px;
+    cursor: pointer;
+}
 
 /* Experiences */
 
@@ -123,7 +138,7 @@ img.logo {
     background-color: white;
 }
 
-.company, .class {
+.blue {
     color: #234970;
 }
 
