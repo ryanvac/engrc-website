@@ -166,6 +166,15 @@ img.logo {
     text-align: initial;
 }
 
+div.project-deck {
+    display: flex;
+    justify-content: center;
+}
+
+div.project-deck > iframe {
+    padding: 4px; 
+}
+
 /* Extras */
 
 .interest-items {
